@@ -9,7 +9,8 @@ Para aplicar la transformada inversa de Laplace, es común descomponer las funci
 
 Cuando el denominador tiene raíces reales distintas, se descompone la función en fracciones de primer orden, permitiendo hallar coeficientes de manera directa.
 
-💡 Ejemplo 1: Obtener la transformada inversa de: F(S)=\frac{s+3}{(s+1)(s+2)}
+💡 Ejemplo 1: Obtener la transformada inversa de: 
+F(S)=\frac{s+3}{(s+1)(s+2)}
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
