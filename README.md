@@ -1,8 +1,9 @@
 # Solución de Ecuaciones Diferenciales
 Las ecuaciones diferenciales son una herramienta fundamental en el estudio de sistemas dinámicos y control de procesos. Su resolución permite modelar diversos fenómenos en ingeniería, física y otras ciencias aplicadas. En esta clase se abordarán los métodos de solución de ecuaciones diferenciales utilizando la transformada de Laplace, fracciones parciales y herramientas computacionales como Matlab y Simulink.
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+## 1. Fracciones parciales (Método resumido)
+Para aplicar la transformada inversa de Laplace, es común descomponer las funciones en fracciones parciales, lo que simplifica el proceso de cálculo.
 
+🔑 Definición: > La descomposición en fracciones parciales es una técnica algebraica utilizada para expresar una función racional como la suma de fracciones más simples, facilitando su transformación inversa.
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
