@@ -1,4 +1,4 @@
-# Solución de Ecuaciones Diferenciales
+# Descomposición en Fracciones Parciales
 Las ecuaciones diferenciales son una herramienta fundamental en el estudio de sistemas dinámicos y control de procesos. Su resolución permite modelar diversos fenómenos en ingeniería, física y otras ciencias aplicadas. En esta clase se abordarán los métodos de solución de ecuaciones diferenciales utilizando la transformada de Laplace, fracciones parciales y herramientas computacionales como Matlab y Simulink.
 ## 1. Fracciones parciales (Método resumido)
 Para aplicar la transformada inversa de Laplace, es común descomponer las funciones en fracciones parciales, lo que simplifica el proceso de cálculo.
