@@ -4,6 +4,12 @@ Las ecuaciones diferenciales son una herramienta fundamental en el estudio de si
 Para aplicar la transformada inversa de Laplace, es común descomponer las funciones en fracciones parciales, lo que simplifica el proceso de cálculo.
 
 🔑 Definición: > La descomposición en fracciones parciales es una técnica algebraica utilizada para expresar una función racional como la suma de fracciones más simples, facilitando su transformación inversa.
+1.1 Caso 1: Raíces reales diferentes
+
+Cuando el denominador tiene raíces reales distintas, se descompone la función en fracciones de primer orden, permitiendo hallar coeficientes de manera directa.
+
+💡 Ejemplo 1: Obtener la transformada inversa de:
+
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
