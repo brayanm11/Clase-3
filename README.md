@@ -10,6 +10,10 @@ $G(s)=\frac{P(s)}{(s+P1)(s+P2)..(s+Pn)}$ La fracción se descompone en términos
 
 💡 Ejemplo 1: Obtener la transformada inversa de: $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
 
+Solución paso a paso:
+
+Expresión de la descomposición en fracciones parciales:
+
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
