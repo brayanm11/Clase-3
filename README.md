@@ -8,7 +8,7 @@ La descomposición en fracciones parciales es una técnica fundamental en el an�
 Si el denominador de la función tiene raíces reales distintas, la descomposición se expresa como: 
 $G(s)=\frac{P(s)}{(s+P1)(s+P2)..(s+Pn)}$ La fracción se descompone en términos de la forma: $G(s)=(\frac{a}{s+P1})+(\frac{b}{s+P2})+...(\frac{N}{s+Pn})$
 
-💡 Ejemplo 1: Obtener la transformada inversa de:
+💡 Ejemplo 1: Obtener la transformada inversa de: $ G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
