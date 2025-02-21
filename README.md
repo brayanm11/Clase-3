@@ -14,6 +14,8 @@ Solución paso a paso:
 
 1.Expresión de la descomposición en fracciones parciales: $\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}=\frac{a}{s+1}+\frac{b}{s-2}+\frac{c}{s-3}$
 
+2.Multiplicamos por el denominador común para eliminar fracciones:
+
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
