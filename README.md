@@ -1,19 +1,9 @@
 # Descomposición en Fracciones Parciales
 La descomposición en fracciones parciales es una técnica utilizada en cálculo y álgebra para simplificar expresiones racionales, es decir, fracciones donde el numerador y el denominador son polinomios. Esta técnica es especialmente útil para resolver integrales y transformadas de Laplace, ya que permite descomponer una fracción compleja en una suma de fracciones más simples que son más fáciles de manejar.
 ## 1. Casos de Descomposición en Fracciones Parciales
-1.1 Caso 1: Raíces reales distintas
-
-Si el denominador de la función tiene raíces reales distintas, la descomposición se expresa como: 
-$G.(s)=\frac{P(s)}{(s+P1)(s+P2)..(s+Pn)}$ La fracción se descompone en términos de la forma: $G(s)=(\frac{a}{s+P1})+(\frac{b}{s+P2})+...(\frac{N}{s+Pn})$
-
-💡 Ejemplo 1: Obtener la transformada inversa de: $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
-
-Solución paso a paso:
-
-1. Expresión de la descomposición en fracciones parciales: $\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}=\frac{a}{s+1}+\frac{b}{s-2}+\frac{c}{s-3}$
-
-2. Multiplicamos por el denominador común para eliminar fracciones:.
-
+1.1 Caso 1: Q(s) tiene raíces reales distintas
+Caso 2: Q(s) tiene n raíces reales repetidas
+Caso 3: Q(s) tiene raíces complejas conjugadas
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
