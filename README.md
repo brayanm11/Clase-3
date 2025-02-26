@@ -8,6 +8,7 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 1.3Caso 3: Q(s) tiene raíces complejas conjugadas
 ## 2. Definiciones
 🔑 Fracción Propia: Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
+
 🔑 Raíces de un Polinomio: Los valores de la variable que hacen que el polinomio sea igual a cero.
 
 ## 3. Subsecciones
