@@ -7,8 +7,8 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 
 1.3Caso 3: Q(s) tiene raíces complejas conjugadas
 ## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+🔑 Fracción Propia: Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
+🔑 Raíces de un Polinomio: Los valores de la variable que hacen que el polinomio sea igual a cero.
 
 ## 3. Subsecciones
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
