@@ -7,9 +7,17 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 
 1.3Caso 3: Q(s) tiene raíces complejas conjugadas
 ## 2. Definiciones
-🔑 Fracción Propia: Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
+🔑 Fracción Propia:
 
-🔑 Raíces de un Polinomio: Los valores de la variable que hacen que el polinomio sea igual a cero.
+Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
+
+🔑 Fracción Impropia:
+
+Una fracción donde el grado del numerador es mayor o igual al grado del denominador. En estos casos, se debe realizar una división de polinomios antes de aplicar la descomposición.
+
+🔑 Raíces de un Polinomio:
+
+Los valores de la variable que hacen que el polinomio sea igual a cero.
 
 ## 3. Subsecciones
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
