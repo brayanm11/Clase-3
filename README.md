@@ -74,6 +74,8 @@ disp(fracciones_parciales);
 
 📚 Ejercicio 1: fracciones parciales de la siguiente fracción:
 
+$$\frac{9x^{2}+34x+14}{(x+2)(x^{2}-x-12)}$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
