@@ -36,9 +36,9 @@ Solución
 2. Multiplicamos ambos lados por el denominador común:  $2s^{2}-4= A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)$
 3. Expandimos y agrupamos términos en $s^{2}$, s  y constantes:
 
-  -$$A+B+C=2$$
+  - $$A+B+C=2$$
 
- -$$-5A-2B-C=0$$
+ - $$-5A-2B-C=0$$
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
