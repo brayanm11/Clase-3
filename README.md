@@ -50,7 +50,7 @@ Solución
 
 $$\frac{2}{s+1}-\frac{1}{s-2}+\frac{1}{s-3}$$
 
-4. Código en MATLAB y Python
+## 4. Código en MATLAB 
 
 💡 Código en MATLAB:
 
