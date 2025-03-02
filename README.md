@@ -76,11 +76,15 @@ disp(fracciones_parciales);
 
 $$\frac{9x^{2}+34x+14}{(x+2)(x^{2}-x-12)}$$
 
-#Solución
+Solución
 
 A primera vista, la fracción pareciera tener un factor cuadrático en el denominador. Sin embargo, podemos factorizar esta expresión de la siguiente forma:
 
 $$x^{2}-x-12=(x+3)(x-4)$$
+
+Entonces, la expressión solo tiene factores lineales:
+
+$$\frac{9x^{2}+34x+14}{(x+2)(x^{2}-x-12)}=\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}$$
 
 ## 6. Conclusiones
 
