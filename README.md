@@ -94,6 +94,8 @@ Ahora, vamos a multiplicar a toda la expresión por $(x+2)(x+3)(x−4):$
 
 $$9x^{2}+34x+14=A(x+3)(x−4)+B(x+2)(x−4)+C(x+2)(x+3)$$
 
+Podemos encontrar el valor de A al usar $x=-2:$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
