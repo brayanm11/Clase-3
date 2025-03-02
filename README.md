@@ -11,7 +11,7 @@ Si el denominador tiene raíces repetidas, se debe considerar: $G(s)=\frac{A}{s+
 
 1.3Raíces Complejas Conjugadas
 
-Cuando el denominador tiene términos cuadráticos irreducibles:
+Cuando el denominador tiene términos cuadráticos irreducibles: $G(s)=\frac{As+B}{s^{2}+bs+c}+\frac{Cs+D}{s^{2}+ds+e}$
 
 ## 2. Conceptos Claves
 🔑 Fracción Propia:
