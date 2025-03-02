@@ -55,9 +55,10 @@ $$\frac{2}{s+1}-\frac{1}{s-2}+\frac{1}{s-3}$$
 💡 Código en MATLAB:
 
 ```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
+syms s
+G = (2*s^2 - 4) / ((s+1)*(s-2)*(s-3));
+fracciones_parciales = partfrac(G);
+disp(fracciones_parciales);
 ```
 
 
