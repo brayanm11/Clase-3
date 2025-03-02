@@ -7,7 +7,7 @@ Si el denominador tiene raíces reales distintas, la descomposición es de la fo
 
 1.2Raíces Reales Repetidas
 
-Si el denominador tiene raíces repetidas, se debe considerar:
+Si el denominador tiene raíces repetidas, se debe considerar: $G(s)=\frac{A}{s+p}+\frac{B}{(s+p)^{2}}+\frac{C}{(s+p)^{3}}$
 
 1.3Raíces Complejas Conjugadas
 
