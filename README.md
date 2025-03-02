@@ -3,15 +3,21 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 ## 1. Casos de Descomposición en Fracciones Parciales
 1.1  Raíces Reales Distintas
 
-Si el denominador tiene raíces reales distintas, la descomposición es de la forma: $G(s)=\frac{A}{s+p1}+\frac{B}{s+p2}+\frac{C}{s+p3}$
+Si el denominador tiene raíces reales distintas, la descomposición es de la forma: 
+
+$G(s)=\frac{A}{s+p1}+\frac{B}{s+p2}+\frac{C}{s+p3}$
 
 1.2  Raíces Reales Repetidas
 
-Si el denominador tiene raíces repetidas, se debe considerar: $G(s)=\frac{A}{s+p}+\frac{B}{(s+p)^{2}}+\frac{C}{(s+p)^{3}}$
+Si el denominador tiene raíces repetidas, se debe considerar: 
+
+$G(s)=\frac{A}{s+p}+\frac{B}{(s+p)^{2}}+\frac{C}{(s+p)^{3}}$
 
 1.3  Raíces Complejas Conjugadas
 
-Cuando el denominador tiene términos cuadráticos irreducibles: $G(s)=\frac{As+B}{s^{2}+bs+c}+\frac{Cs+D}{s^{2}+ds+e}$
+Cuando el denominador tiene términos cuadráticos irreducibles: 
+
+$G(s)=\frac{As+B}{s^{2}+bs+c}+\frac{Cs+D}{s^{2}+ds+e}$
 
 ## 2. Conceptos Claves
 🔑 Fracción Propia:
@@ -28,7 +34,9 @@ Los valores de la variable que hacen que el polinomio sea igual a cero.
 
 ## 3. Ejemplos
 
-💡 Ejemplo 1: Obtener la descomposición en fracciones parciales de:  $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
+💡 Ejemplo 1: Obtener la descomposición en fracciones parciales de:  
+
+$G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
 
 Solución
 
