@@ -72,7 +72,7 @@ disp(fracciones_parciales);
 
 ## 5. Ejercicios
 
-📚 Ejercicio 1:
+📚 Ejercicio 1: fracciones parciales de la siguiente fracción:
 
 ## 6. Conclusiones
 
