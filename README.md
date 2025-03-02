@@ -154,6 +154,10 @@ $$C=−3$$
 
 Finalmente, encontramos el valor de A al comparar a los coeficientes con el término $x^{2}.$ No tenemos términos en el lado izquierdo y tenemos: $Ax^{2}+Cx^{2}$ en el derecho:
 
+Usando el valor $C=−3$ en esta ecuación, encontramos el valor de $A=3.$ Entonces, tenemos:
+
+$$\frac{5x+7}{(x+1)^{2}(x+2)}=\frac{3}{x+1}+\frac{2}{(x+1)^{2}}+\frac{3}{x+2}$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
