@@ -74,7 +74,7 @@ disp(fracciones_parciales);
 
 📚 Ejercicio 1:
 
-## 10. Conclusiones
+## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
 
@@ -82,5 +82,5 @@ Se pueden manejar distintos casos según el tipo de raíces del denominador.
 
 Matlab y Python permiten automatizar estos cálculos de forma eficiente.
 
-## 11. Referencias
+## 7. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
