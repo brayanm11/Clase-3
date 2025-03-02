@@ -96,6 +96,8 @@ $$9x^{2}+34x+14=A(x+3)(x−4)+B(x+2)(x−4)+C(x+2)(x+3)$$
 
 Podemos encontrar el valor de A al usar $x=-2:$
 
+$$9(-2)^{2}+34(-2)+14=A(-2+3)(-2-4)+B(-2+2)(-2-4)+C(-2+2)(-2+3)$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
