@@ -46,6 +46,7 @@ Solución
 
   -  $$A=2, B=-1, C=1$$
 
+5. Sustitución en la fracción parcial:
 
 
 ## 4. Ejemplos
