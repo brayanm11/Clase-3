@@ -44,6 +44,8 @@ Solución
 
 4. Se reuelve el sistema de ecuaciones:
 
+  -  $$A=2, B=-1, C=1$$
+
 
 
 ## 4. Ejemplos
