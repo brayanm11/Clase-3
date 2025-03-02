@@ -90,6 +90,8 @@ Dado que solo tenemos factores lineales, las fracciones parciales tienen la sigu
 
 $$\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}=\frac{A}{x+2}+\frac{B}{x+3}+\frac{C}{x-4}$$
 
+Ahora, vamos a multiplicar a toda la expresión por $(x+2)(x+3)(x−4):%
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
