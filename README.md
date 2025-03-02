@@ -30,6 +30,10 @@ Los valores de la variable que hacen que el polinomio sea igual a cero.
 
 💡 Ejemplo 1: Obtener la descomposición en fracciones parciales de:  $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
 
+Solución
+
+1. Expresión en fracciones parciales:
+
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 
