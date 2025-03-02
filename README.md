@@ -132,6 +132,28 @@ El denominador de la fracción tiene un factor lineal $(x+1)$ y un factor repeti
 
 $$\frac{5x+7}{(x+1)^{2}(x+2)}=\frac{A}{x+1}+\frac{B}{(x+1)^{2}}+\frac{C}{x+2}$$
 
+Para encontrar los valores de A, B y C, vamos a multiplicar a toda la expresión por $(x+1)^{2}(x+2):$
+
+$$5x+7=A(x+1)(x+2)+B(x+2)+C(x+1)^{2}$$
+
+Al usar el valor $x=−1$ , tenemos:
+
+$$5(-1)+7=A(-1+1)(-1+2)+B(-1+2)+C(-1+1)^{2}$$
+
+$$2=B$$
+
+$$B=2$$
+
+Al usar el valor $x=−2$ , tenemos:
+
+$$5(-2)+7=A(-2+1)(-2+2)+B(-2+2)+C(-2+1)^{2}$$
+
+$$−3=C$$
+
+$$C=−3$$
+
+Finalmente, encontramos el valor de A al comparar a los coeficientes con el término $x^{2}.$ No tenemos términos en el lado izquierdo y tenemos: $Ax^{2}+Cx^{2}$ en el derecho:
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
