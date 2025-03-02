@@ -130,6 +130,8 @@ Solución
 
 El denominador de la fracción tiene un factor lineal $(x+1)$ y un factor repetido $(x+2)^{2}$ En este caso, las fracciones parciales tienen la siguiente forma:
 
+$$\frac{5x+7}{(x+1)^{2}(x+2)}=\frac{A}{x+1}+\frac{B}{(x+1)^{2}}+\frac{C}{x+2}$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
