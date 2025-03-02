@@ -110,6 +110,18 @@ $$−7=7B$$
 
 $$B=−1$$
 
+Podemos encontrar el valor de C al usar $x=4:$
+
+$$9(4)^{2}+34(4)+14=A(4+3)(4-4)+B(4+2)(4-4)+C(4+2)(4+3)$$
+
+$$294=42C$$
+
+$$C=7$$
+
+Entonces, las fracciones parciales son:
+
+$$\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}=\frac{3}{x+2}+\frac{1}{x+3}+\frac{7}{x-4}$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
