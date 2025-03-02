@@ -35,6 +35,7 @@ Solución
 1. Expresión en fracciones parciales:  $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}=\frac{A}{s+1}+\frac{B}{s-2}+\frac{C}{s-3}$
 2. Multiplicamos ambos lados por el denominador común:  $2s^{2}-4= A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)$
 3. Expandimos y agrupamos términos en $s^{2}$, s  y constantes:
+
 3.1 $A+B+C=2$
 
 ## 4. Ejemplos
