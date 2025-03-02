@@ -42,6 +42,10 @@ Solución
 
  -  $$6A-3B-2C=-4$$
 
+4. Se reuelve el sistema de ecuaciones:
+
+
+
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 
