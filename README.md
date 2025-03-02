@@ -98,6 +98,10 @@ Podemos encontrar el valor de A al usar $x=-2:$
 
 $$9(-2)^{2}+34(-2)+14=A(-2+3)(-2-4)+B(-2+2)(-2-4)+C(-2+2)(-2+3)$$
 
+$$−18=−6A$$
+
+$$A=3$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
