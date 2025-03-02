@@ -1,15 +1,15 @@
 # Descomposición en Fracciones Parciales
 La descomposición en fracciones parciales es una técnica utilizada en cálculo y álgebra para simplificar expresiones racionales, es decir, fracciones donde el numerador y el denominador son polinomios. Esta técnica es especialmente útil para resolver integrales y transformadas de Laplace, ya que permite descomponer una fracción compleja en una suma de fracciones más simples que son más fáciles de manejar.
 ## 1. Casos de Descomposición en Fracciones Parciales
-1.1 Raíces Reales Distintas
+1.1  Raíces Reales Distintas
 
 Si el denominador tiene raíces reales distintas, la descomposición es de la forma: $G(s)=\frac{A}{s+p1}+\frac{B}{s+p2}+\frac{C}{s+p3}$
 
-1.2Raíces Reales Repetidas
+1.2  Raíces Reales Repetidas
 
 Si el denominador tiene raíces repetidas, se debe considerar: $G(s)=\frac{A}{s+p}+\frac{B}{(s+p)^{2}}+\frac{C}{(s+p)^{3}}$
 
-1.3Raíces Complejas Conjugadas
+1.3  Raíces Complejas Conjugadas
 
 Cuando el denominador tiene términos cuadráticos irreducibles: $G(s)=\frac{As+B}{s^{2}+bs+c}+\frac{Cs+D}{s^{2}+ds+e}$
 
