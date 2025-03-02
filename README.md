@@ -124,6 +124,8 @@ $$\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}=\frac{3}{x+2}+\frac{1}{x+3}+\frac{7}{x-4
 
 📚 Ejercicio 2: Expresa a la siguiente fracción en fracciones parciales:
 
+$$\frac{5x+7}{(x+1)^{2}(x+2)}$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
