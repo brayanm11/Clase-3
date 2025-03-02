@@ -102,6 +102,8 @@ $$−18=−6A$$
 
 $$A=3$$
 
+Podemos encontrar el valor de B al usar $x=−3:$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
