@@ -167,4 +167,13 @@ Se pueden manejar distintos casos según el tipo de raíces del denominador.
 Matlab permite automatizar estos cálculos de forma eficiente.
 
 ## 7. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+
+https://es.wikipedia.org/wiki/Descomposición_en_fracciones_simples
+
+https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly/x2ec2f6f830c9fb89:partial-fraction/v/partial-fraction-expansion
+
+Ejercicio 1, Ejercicio 2: Ejemploneurochispas. Recuperado el [2/3/2025], de
+
+https://www.neurochispas.com/wiki/ejercicios-resueltos-de-fracciones-parciales/#2-10-ejercicios-resueltos-de-fracciones-parciales
+
+
