@@ -6,7 +6,7 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 1.2Caso 2: Q(s) tiene n raíces reales repetidas
 
 1.3Caso 3: Q(s) tiene raíces complejas conjugadas
-## 2. Definiciones
+## 2. Conceptos Claves
 🔑 Fracción Propia:
 
 Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
