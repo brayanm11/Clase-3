@@ -80,7 +80,7 @@ La descomposición en fracciones parciales es una técnica fundamental para simp
 
 Se pueden manejar distintos casos según el tipo de raíces del denominador.
 
-Matlab y Python permiten automatizar estos cálculos de forma eficiente.
+Matlab permite automatizar estos cálculos de forma eficiente.
 
 ## 7. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
