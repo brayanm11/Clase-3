@@ -3,7 +3,7 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 ## 1. Casos de Descomposición en Fracciones Parciales
 1.1 Raíces Reales Distintas
 
-Si el denominador tiene raíces reales distintas, la descomposición es de la forma:
+Si el denominador tiene raíces reales distintas, la descomposición es de la forma: $G(s)=\frac{A}{s+p1}+\frac{B}{s+p2}+\frac{C}{s+p3}$
 
 1.2Raíces Reales Repetidas
 
