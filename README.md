@@ -54,10 +54,12 @@ $$\frac{2}{s+1}-\frac{1}{s-2}+\frac{1}{s-3}$$
 
 💡 Código en MATLAB:
 
-syms s
-G = (2*s^2 - 4) / ((s+1)*(s-2)*(s-3));
-fracciones_parciales = partfrac(G);
-disp(fracciones_parciales);
+```
+var sumar2 = function(numero) {
+  return numero + 2;
+}
+```
+
 
 ## 9. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
