@@ -1,7 +1,9 @@
 # Descomposición en Fracciones Parciales
 La descomposición en fracciones parciales es una técnica utilizada en cálculo y álgebra para simplificar expresiones racionales, es decir, fracciones donde el numerador y el denominador son polinomios. Esta técnica es especialmente útil para resolver integrales y transformadas de Laplace, ya que permite descomponer una fracción compleja en una suma de fracciones más simples que son más fáciles de manejar.
 ## 1. Casos de Descomposición en Fracciones Parciales
-1.1 Caso 1: Q(s) tiene raíces reales distintas
+1.1 Raíces Reales Distintas
+
+Si el denominador tiene raíces reales distintas, la descomposición es de la forma:
 
 1.2Caso 2: Q(s) tiene n raíces reales repetidas
 
