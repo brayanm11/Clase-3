@@ -5,7 +5,9 @@ La descomposición en fracciones parciales es una técnica utilizada en cálculo
 
 Si el denominador tiene raíces reales distintas, la descomposición es de la forma:
 
-1.2Caso 2: Q(s) tiene n raíces reales repetidas
+1.2Raíces Reales Repetidas
+
+Si el denominador tiene raíces repetidas, se debe considerar:
 
 1.3Caso 3: Q(s) tiene raíces complejas conjugadas
 ## 2. Conceptos Claves
