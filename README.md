@@ -9,7 +9,10 @@ Si el denominador tiene raíces reales distintas, la descomposición es de la fo
 
 Si el denominador tiene raíces repetidas, se debe considerar:
 
-1.3Caso 3: Q(s) tiene raíces complejas conjugadas
+1.3Raíces Complejas Conjugadas
+
+Cuando el denominador tiene términos cuadráticos irreducibles:
+
 ## 2. Conceptos Claves
 🔑 Fracción Propia:
 
