@@ -104,6 +104,12 @@ $$A=3$$
 
 Podemos encontrar el valor de B al usar $x=−3:$
 
+$$9(-3)^{2}+34(-3)+14=A(-3+3)(-3-4)+B(-3+2)(-3-4)+C(-3+2)(-3+3)$$
+
+$$−7=7B$$
+
+$$B=−1$$
+
 ## 6. Conclusiones
 
 La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
