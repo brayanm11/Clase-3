@@ -1,179 +1,103 @@
-# Descomposición en Fracciones Parciales
-La descomposición en fracciones parciales es una técnica utilizada en cálculo y álgebra para simplificar expresiones racionales, es decir, fracciones donde el numerador y el denominador son polinomios. Esta técnica es especialmente útil para resolver integrales y transformadas de Laplace, ya que permite descomponer una fracción compleja en una suma de fracciones más simples que son más fáciles de manejar.
-## 1. Casos de Descomposición en Fracciones Parciales
-1.1  Raíces Reales Distintas
+# Clase: Análisis de Sistemas en Lazo y Diagrama de Flujo de Señales
+En esta clase se abordó el análisis de sistemas representados por diagramas de bloques y diagramas de flujo de señales. Se analizaron diferentes trayectorias en diagramas complejos, se calcularon funciones de transferencia aplicando la regla de Mason y se redujeron estructuras en lazos. Este tema es fundamental en el estudio de sistemas de control, donde se busca determinar la relación entrada-salida de sistemas lineales.
+## 1. Subtítulos
 
-Si el denominador tiene raíces reales distintas, la descomposición es de la forma: 
+1.1 Definición y utilidad del diagrama de flujo de señales
 
-$G(s)=\frac{A}{s+p1}+\frac{B}{s+p2}+\frac{C}{s+p3}$
+1.2 Caminos hacia adelante (Paths)
 
-1.2  Raíces Reales Repetidas
+1.3 Lazos individuales y lazos no tocados
 
-Si el denominador tiene raíces repetidas, se debe considerar: 
+1.4 Aplicación de la regla de Mason
 
-$G(s)=\frac{A}{s+p}+\frac{B}{(s+p)^{2}}+\frac{C}{(s+p)^{3}}$
+1.5 Reducción de sistemas con retroalimentación
 
-1.3  Raíces Complejas Conjugadas
+## 2. Definiciones
+🔑 Camino hacia adelante: Es una ruta desde la entrada a la salida sin pasar dos veces por el mismo nodo.
 
-Cuando el denominador tiene términos cuadráticos irreducibles: 
+🔑 Lazo: Cualquier ruta cerrada en el grafo donde se regresa al mismo nodo inicial sin repetir nodos.
 
-$G(s)=\frac{As+B}{s^{2}+bs+c}+\frac{Cs+D}{s^{2}+ds+e}$
+🔑 Lazos no tocados: Lazos que no comparten nodos entre sí.
 
-## 2. Conceptos Claves
-🔑 Fracción Propia:
+🔑 Determinante de Mason ($\Delta$): Valor que se usa para calcular la función de transferencia total del sistema.
 
-Una fracción donde el grado del polinomio del numerador es menor que el grado del polinomio del denominador.
+## 9. Ejercicios
+📚Ejemplo 1: Cálculo de la función de transferencia con Mason: haga este sistema:
 
-🔑 Fracción Impropia:
+📌 Paso 1: Identificar trayectorias hacia adelante
+Analizamos los caminos desde la entrada hasta la salida:
 
-Una fracción donde el grado del numerador es mayor o igual al grado del denominador. En estos casos, se debe realizar una división de polinomios antes de aplicar la descomposición.
+$P_1$: $1 \to 2 \to 3 \to \text{Salida}$
 
-🔑 Raíces de un Polinomio:
+Ganancia: $1 \cdot 1 \cdot (-1) = -1$
 
-Los valores de la variable que hacen que el polinomio sea igual a cero.
+$P_2$: $1 \to 3 \to \text{Salida}$
 
-## 3. Ejemplos
+Ganancia: $-14 \cdot (-1) = 14$
 
-💡 Ejemplo 1: Obtener la descomposición en fracciones parciales de:  
+📌 Paso 2: Identificar los lazos individuales
+Los lazos (loops) cerrados son:
 
-$G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}$
+$L_1$: $3 \to 3$ con ganancia: $-1/4$
 
-Solución
+$L_2$: $1 \to 3 \to 1$ con ganancia: $(-14) \cdot (-0.2) = 2.8$
 
-1. Expresión en fracciones parciales:  $G(s)=\frac{2s^{2}-4}{(s+1)(s-2)(s-3)}=\frac{A}{s+1}+\frac{B}{s-2}+\frac{C}{s-3}$
-2. Multiplicamos ambos lados por el denominador común:  $2s^{2}-4= A(s-2)(s-3)+B(s+1)(s-3)+C(s+1)(s-2)$
-3. Expandimos y agrupamos términos en $s^{2}$, s  y constantes:
+$L_3$: $1 \to 3 \to 1$ (vía otro camino) con ganancia: $(-0.25)(-0.2) = 0.05$
 
-  - $$A+B+C=2$$
+📌 Paso 3: Identificar lazos no tocantes
+No hay lazos que no se crucen entre sí (todos comparten nodos). Entonces:
 
- - $$-5A-2B-C=0$$
+$\Delta = 1 - (\text{suma de las ganancias de lazos})$
 
- -  $$6A-3B-2C=-4$$
+$$ \Delta =1-\left [ (-\frac{1}{4})+2.8+0.05 \right ]=1-2.6=-1.85$$
 
-4. Se reuelve el sistema de ecuaciones:
+📌 Paso 4: Calcular $\Delta_k$ para cada trayectoria
+Ya que cada trayectoria toca al menos un lazo, entonces:
 
-  -  $$A=2, B=-1, C=1$$
+$\Delta_1 = \Delta_2 = 1$
 
-5. Sustitución en la fracción parcial:
+📌 Paso 5: Aplicar la fórmula de Mason
+La fórmula es:
 
-$$\frac{2}{s+1}-\frac{1}{s-2}+\frac{1}{s-3}$$
+$$H(s)=\frac{\sum _{k}P_{k}\Delta _{k}}{\Delta }$$
 
-## 4. Código en MATLAB 
+Sustituyendo:
 
-💡 Código en MATLAB:
+$$H(s)=\frac{(-1)(1)+(14)(1)}{-1.85}=\frac{13}{-1.85}=-7.03$$
 
+Resultado final:
+
+$$H(s)=−7.03$$
+
+
+
+💡 Simulación con Python:
 ```
-syms s
-G = (2*s^2 - 4) / ((s+1)*(s-2)*(s-3));
-fracciones_parciales = partfrac(G);
-disp(fracciones_parciales);
+from sympy import symbols, simplify
+
+# Variables
+P1 = -1
+P2 = 14
+
+# Determinantes
+Delta = 1 - ((-1/4) + 2.8 + 0.05)  # L1 + L2 + L3
+Delta1 = 1
+Delta2 = 1
+
+# Mason's Formula
+H = (P1*Delta1 + P2*Delta2) / Delta
+
+# Resultado
+print("H(s) =", simplify(H))
 ```
+## 10. Conclusiones
 
+La regla de Mason es una herramienta poderosa para calcular la función de transferencia sin necesidad de reducir manualmente los diagramas.
 
-## 5. Ejercicios
+Los lazos no tocados afectan el determinante $\Delta$, permitiendo mejorar la precisión del resultado.
 
-📚 Ejercicio 1: fracciones parciales de la siguiente fracción:
+En sistemas de bloques, conocer las configuraciones básicas como serie, paralelo y retroalimentación simplifica los cálculos.
 
-$$\frac{9x^{2}+34x+14}{(x+2)(x^{2}-x-12)}$$
+## 11. Referencias
 
-Solución
-
-A primera vista, la fracción pareciera tener un factor cuadrático en el denominador. Sin embargo, podemos factorizar esta expresión de la siguiente forma:
-
-$$x^{2}-x-12=(x+3)(x-4)$$
-
-Entonces, la expressión solo tiene factores lineales:
-
-$$\frac{9x^{2}+34x+14}{(x+2)(x^{2}-x-12)}=\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}$$
-
-Dado que solo tenemos factores lineales, las fracciones parciales tienen la siguiente forma:
-
-$$\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}=\frac{A}{x+2}+\frac{B}{x+3}+\frac{C}{x-4}$$
-
-Ahora, vamos a multiplicar a toda la expresión por $(x+2)(x+3)(x−4):$
-
-$$9x^{2}+34x+14=A(x+3)(x−4)+B(x+2)(x−4)+C(x+2)(x+3)$$
-
-Podemos encontrar el valor de A al usar $x=-2:$
-
-$$9(-2)^{2}+34(-2)+14=A(-2+3)(-2-4)+B(-2+2)(-2-4)+C(-2+2)(-2+3)$$
-
-$$−18=−6A$$
-
-$$A=3$$
-
-Podemos encontrar el valor de B al usar $x=−3:$
-
-$$9(-3)^{2}+34(-3)+14=A(-3+3)(-3-4)+B(-3+2)(-3-4)+C(-3+2)(-3+3)$$
-
-$$−7=7B$$
-
-$$B=−1$$
-
-Podemos encontrar el valor de C al usar $x=4:$
-
-$$9(4)^{2}+34(4)+14=A(4+3)(4-4)+B(4+2)(4-4)+C(4+2)(4+3)$$
-
-$$294=42C$$
-
-$$C=7$$
-
-Entonces, las fracciones parciales son:
-
-$$\frac{9x^{2}+34x+14}{(x+2)(x+3)(x-4)}=\frac{3}{x+2}+\frac{1}{x+3}+\frac{7}{x-4}$$
-
-📚 Ejercicio 2: Expresa a la siguiente fracción en fracciones parciales:
-
-$$\frac{5x+7}{(x+1)^{2}(x+2)}$$
-
-Solución
-
-El denominador de la fracción tiene un factor lineal $(x+1)$ y un factor repetido $(x+2)^{2}$ En este caso, las fracciones parciales tienen la siguiente forma:
-
-$$\frac{5x+7}{(x+1)^{2}(x+2)}=\frac{A}{x+1}+\frac{B}{(x+1)^{2}}+\frac{C}{x+2}$$
-
-Para encontrar los valores de A, B y C, vamos a multiplicar a toda la expresión por $(x+1)^{2}(x+2):$
-
-$$5x+7=A(x+1)(x+2)+B(x+2)+C(x+1)^{2}$$
-
-Al usar el valor $x=−1$ , tenemos:
-
-$$5(-1)+7=A(-1+1)(-1+2)+B(-1+2)+C(-1+1)^{2}$$
-
-$$2=B$$
-
-$$B=2$$
-
-Al usar el valor $x=−2$ , tenemos:
-
-$$5(-2)+7=A(-2+1)(-2+2)+B(-2+2)+C(-2+1)^{2}$$
-
-$$−3=C$$
-
-$$C=−3$$
-
-Finalmente, encontramos el valor de A al comparar a los coeficientes con el término $x^{2}.$ No tenemos términos en el lado izquierdo y tenemos: $Ax^{2}+Cx^{2}$ en el derecho:
-
-Usando el valor $C=−3$ en esta ecuación, encontramos el valor de $A=3.$ Entonces, tenemos:
-
-$$\frac{5x+7}{(x+1)^{2}(x+2)}=\frac{3}{x+1}+\frac{2}{(x+1)^{2}}+\frac{3}{x+2}$$
-
-## 6. Conclusiones
-
-La descomposición en fracciones parciales es una técnica fundamental para simplificar funciones racionales y resolver ecuaciones algebraicas en cálculo y análisis de señales.
-
-Se pueden manejar distintos casos según el tipo de raíces del denominador.
-
-Matlab permite automatizar estos cálculos de forma eficiente.
-
-## 7. Referencias
-
-https://es.wikipedia.org/wiki/Descomposición_en_fracciones_simples
-
-https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:poly/x2ec2f6f830c9fb89:partial-fraction/v/partial-fraction-expansion
-
-Ejercicio 1, Ejercicio 2: Ejemploneurochispas. Recuperado el [2/3/2025], de
-
-https://www.neurochispas.com/wiki/ejercicios-resueltos-de-fracciones-parciales/#2-10-ejercicios-resueltos-de-fracciones-parciales
-
-
+Apuntes de clase: Diagramas de flujo de señales y bloque
